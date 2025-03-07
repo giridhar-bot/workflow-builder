@@ -89,29 +89,4 @@ src/styles/global.css
 - **Undo** restores the last state.
 - **Redo** reapplies an undone action.
 
----
 
-## 🚀 Deployment
-### Deploy to **Vercel**
-```sh
-npm install -g vercel
-vercel login
-vercel
-```
-
-### Deploy to **Netlify**
-```sh
-npm install -g netlify-cli
-netlify login
-npm run build
-netlify deploy --prod
-```
-
----
-
-## 📌 Known Issues & Fixes
-### ❌ **"updateNode is not a function"**
-✔ Ensure `updateNode` is correctly passed from `App.jsx` to `WorkflowTable.jsx`.
-✔ Debug `useWorkflowState.js` to confirm `updateNode` exists.
-
-### ❌ **"React Flow needs width and h
